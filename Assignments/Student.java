@@ -11,5 +11,4 @@ public class Student {
             student.setName("Chinmai Kolisetty");
             System.out.println(student.getName());
     }
-
 }
