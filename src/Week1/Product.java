@@ -1,4 +1,6 @@
-/*Create a class "Product.java" with variable "price" of type double.
+package Week1;
+
+/*Create a class "Week1.Product.java" with variable "price" of type double.
 Price indicates price for single quantity of the product.
 Create a getter and setter methods for price variable.
 Create an overloaded method for price getter method.

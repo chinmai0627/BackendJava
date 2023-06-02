@@ -1,15 +1,18 @@
+package Week1;
+
 /*Write a program to illustrate the concept of runtime polymorphism in Java.
  Choose any names for the parent and child classes,
  as well as the overridden method.*/
 class authentication{
 
     void authenticate(){
+
         System.out.println("Authenticating");
     }
 }
 class Biometric extends authentication {
     void authenticate() { //override method
-        System.out.println("Authenticating Biometric");
+        System.out.println("Authenticating Week1.Biometric");
     }
 }
 class RunTimePolymorphismAuthentication{

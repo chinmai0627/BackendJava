@@ -1,6 +1,6 @@
-/*Create an Abstract class "Department.java" that contains abstract
+package Week1;/*Create an Abstract class "Week1.Department.java" that contains abstract
 method "getDepartmentSize" which returns an integer.
-create a subclass to Department.java and implement the abstract method*/
+create a subclass to Week1.Department.java and implement the abstract method*/
 
 abstract class Department{
     abstract int getDepartmentSize();
@@ -18,6 +18,6 @@ class AbstractionMain {
     public static void main(String[] args) {
         SubDepartment subDep = new SubDepartment(27);
         int departmentSize = subDep.getDepartmentSize();
-        System.out.println("Department size: " + departmentSize);
+        System.out.println("Week1.Department size: " + departmentSize);
     }
 }
