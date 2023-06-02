@@ -1,4 +1,6 @@
-/*Create a class "Student.java" with a variable "Name".
+package Week1;
+
+/*Create a class "Week1.Student.java" with a variable "Name".
 Write two functions:
 getName() that returns "Name" from state.
 setName() that takes an argument and updates the state variable "Name".*/
