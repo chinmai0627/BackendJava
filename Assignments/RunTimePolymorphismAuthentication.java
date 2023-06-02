@@ -1,4 +1,8 @@
+/*Write a program to illustrate the concept of runtime polymorphism in Java.
+ Choose any names for the parent and child classes,
+ as well as the overridden method.*/
 class authentication{
+
     void authenticate(){
         System.out.println("Authenticating");
     }
