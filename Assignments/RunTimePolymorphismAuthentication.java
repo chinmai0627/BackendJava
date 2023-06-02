@@ -9,7 +9,7 @@ class Biometric extends authentication {
     }
 }
 class RunTimePolymorphismAuthentication{
-    public static void main(String args[]){
+    public static void main(String[] args){
         authentication a = new Biometric();
         a.authenticate();
         }
