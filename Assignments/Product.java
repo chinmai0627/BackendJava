@@ -5,16 +5,13 @@ Create an overloaded method for price getter method.
 Overloaded method should take quantity as a method parameter and
 return the price based on the quantity.*/
 public class Product {
-    private double price;
-
+    double price;
     public double getPrice() {
         return price;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
-
     public double getPrice(int quantity) {
         return price * quantity;
     }
