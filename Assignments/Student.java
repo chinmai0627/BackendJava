@@ -1,3 +1,7 @@
+/*Create a class "Student.java" with a variable "Name".
+Write two functions:
+getName() that returns "Name" from state.
+setName() that takes an argument and updates the state variable "Name".*/
 public class Student {
     private String name;
     public String getName() {
