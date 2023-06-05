@@ -5,12 +5,13 @@ package Week1;
 
 final class finalcar {
     final int totalprice = 27000;
-    void carvalue(){
-        System.out.println("Final Car Value");
+    int carvalue(){
+        System.out.println("Final Car value");
+        return totalprice;
     }
 }
 
-class FinalExample {
+public class FinalExample {
     public static void main(String[] args){
         finalcar obj = new finalcar();
         obj.carvalue();
