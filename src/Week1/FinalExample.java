@@ -6,7 +6,7 @@ package Week1;
 final class finalcar {
     final int totalprice = 27000;
     final void carvalue(){
-        System.out.println("Final car value");
+        System.out.println("Final Car value");
     }
 }
 
