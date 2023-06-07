@@ -14,8 +14,8 @@ public class ArrayReverse {
             start++;
             end--;
         }
-        for (int i = 0; i < arrayNumb.length; i++) {
-            System.out.print(arrayNumb[i] + " ");
+        for (int j : arrayNumb) {
+            System.out.print(j + " ");
         }
         System.out.println();
     }
