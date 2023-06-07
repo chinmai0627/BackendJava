@@ -6,7 +6,6 @@ If the number is divisible by 5 , print Buzz instead of the number.
 If the number is divisible by both 3 and 5 , print FizzBuzz instead of the number.*/
 package Week2;
 public class FizzBuzz {
-    //static int i =0;
     public static void main(String[] args){
         for(int i=1;i<=100;i++){
             if((i % 3 == 0) && ( i % 5 == 0)) {
