@@ -1,5 +1,5 @@
 /* Write a program to reverse an Arrays */
-package Week2;
+package Week2.June6Week2;
 public class ArrayReverse {
     public static void main(String[] args) {
         int[] arrayNumb = {10, 8, 27, 8, 16, 43, 78};

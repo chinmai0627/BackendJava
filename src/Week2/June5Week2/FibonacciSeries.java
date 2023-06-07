@@ -1,4 +1,4 @@
-package Week2;
+package Week2.June5Week2;
 /*Given a number N, write a program to
 print Fibonacci Series up to the N term.
 Input: N = 10

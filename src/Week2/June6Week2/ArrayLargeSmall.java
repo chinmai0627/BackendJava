@@ -1,7 +1,7 @@
 /*Given an integer array,
  write a program to find the largest and
  smallest number in the array. */
-package Week2;
+package Week2.June6Week2;
 
 public class ArrayLargeSmall {
     public static void main(String[] args){

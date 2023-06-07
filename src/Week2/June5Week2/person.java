@@ -3,7 +3,7 @@
 teen if age is between 13 and 19 inclusive.
 kid if less than 13.
 adult if more than 19.*/
-package Week2;
+package Week2.June5Week2;
 public class person {
    static int personAge = 27;
     public static void main(String[] args){

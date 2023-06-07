@@ -2,7 +2,7 @@
 the array left by "x" positions.
 Example: input - arr[] = {1, 2, 3, 4, 5, 6, 7}, x = 2
 Output: 3 4 5 6 7 1 2*/
-package Week2;
+package Week2.June6Week2;
 class RotateArray {
         static void leftRotate(int[] arr, int x) {
             int n = arr.length;

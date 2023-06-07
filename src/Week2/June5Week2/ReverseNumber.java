@@ -1,4 +1,4 @@
-package Week2;
+package Week2.June5Week2;
 /* Given a number , write a program to reverse the digits of the number
 input 12345, output 54321 */
 public class ReverseNumber {
