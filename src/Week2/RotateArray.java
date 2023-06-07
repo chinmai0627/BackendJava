@@ -4,33 +4,26 @@ Example: input - arr[] = {1, 2, 3, 4, 5, 6, 7}, x = 2
 Output: 3 4 5 6 7 1 2*/
 package Week2;
 class RotateArray {
-    static void Rotate(int[] arr, int d, int n) {
-        int[] temp = new int[n];
-        int k = 0;
+        static void leftRotate(int[] arr, int x) {
+            int n = arr.length;
+            int[] rotatedArr = new int[n];
 
-        for (int i = d; i < n; i++) {
-            temp[k] = arr[i];
-            k++;
+            for (int i = 0; i < n; i++) {
+                int newIndex = (i + x) % n;
+                rotatedArr[i] = arr[newIndex];
+            }
+            for (int i = 0; i < n; i++) {
+                arr[i] = rotatedArr[i];
+            }
         }
+        public static void main(String[] args) {
+            int[] arr = {1, 2, 3, 4, 5, 6, 7};
+            int x = 2;
 
-        for (int i = 0; i < d; i++) {
-            temp[k] = arr[i];
-            k++;
+            leftRotate(arr, x);
+
+            for (int num : arr) {
+                System.out.print(num + " ");
+            }
         }
-
-        System.arraycopy(temp, 0, arr, 0, n);
-    }
-    static void PrintTheArray(int[] arr, int n) {
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-    }
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        int N = arr.length;
-        int d = 2;
-
-        Rotate(arr, d, N);
-        PrintTheArray(arr, N);
-    }
 }
