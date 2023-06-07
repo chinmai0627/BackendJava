@@ -17,7 +17,6 @@ public class ArrayReverse {
         for (int j : arrayNumb) {
             System.out.print(j + " ");
         }
-        System.out.println();
     }
 }
 
