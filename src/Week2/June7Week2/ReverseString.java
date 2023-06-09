@@ -22,7 +22,6 @@ public class ReverseString {
     }
     public static void main(String[] args){
         String s = "Java J2EE Reverse Me";
-        String rStr = reverse(s);
-        System.out.println("Reverse of " + s + " is: " + rStr);
+        System.out.println("Reverse of " + s + " is: " + reverse(s));
     }
 }

@@ -18,8 +18,7 @@ public class Anagram {
     public static void main(String[] args) {
         String s1 = "heart";
         String s2 = "earth";
-        boolean isanagram = anagram(s1,s2);
-        if(isanagram)
+        if(anagram(s1,s2))
         {
             System.out.println("The two strings, "+ s1 +" and "+ s2+ " are anagram of each other");
         }
