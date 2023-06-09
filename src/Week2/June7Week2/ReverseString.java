@@ -14,11 +14,10 @@ public class ReverseString {
             {
                 rWord += word.charAt(j);
             }
-            rStr = rStr + rWord + " ";
+            rStr += rWord + " ";
             i++;
         }
         return rStr;
-
     }
     public static void main(String[] args){
         String s = "Java J2EE Reverse Me";
