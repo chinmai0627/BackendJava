@@ -14,7 +14,7 @@ public class VowelsString {
     public static void main(String[] args){
         String s = "Chinmai";
         int vowelc = vowelc(s);
-        System.out.println(vowelc);
+        System.out.println("Number of Vowels in String "+ s + " are: " + vowelc);
 
     }
 }

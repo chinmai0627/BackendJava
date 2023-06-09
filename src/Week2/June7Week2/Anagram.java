@@ -21,10 +21,10 @@ public class Anagram {
         boolean isanagram = anagram(s1,s2);
         if(isanagram)
         {
-            System.out.println("The two strings are anagram of each other");
+            System.out.println("The two strings, "+ s1 +" and "+ s2+ " are anagram of each other");
         }
         else{
-            System.out.println("The two strings are not anagram of each other");
+            System.out.println("The two strings, " + s1 +" and "+ s2+ " are not anagram of each other");
         }
     }
 
