@@ -2,6 +2,26 @@
 input - "Java J2EE Reverse Me"
 output - "avaJ EE2J esreveR eM" */
 package Week2.June7Week2;
-
 public class ReverseString {
+    public static String reverse(String s){
+        String[] w = s.split(" ");
+        String rStr = "";
+        for(int i = 0; i < w.length; i++)
+        {
+            String word = w[i];
+            String rWord = "";
+            for (int j = word.length()-1; j >= 0; j--)
+            {
+                rWord += word.charAt(j);
+            }
+            rStr = rStr + rWord + " ";
+        }
+        return rStr;
+
+    }
+    public static void main(String[] args){
+        String s = "Java J2EE Reverse Me";
+        String rStr = reverse(s);
+        System.out.println("Reverse of " + s + " is: " + rStr);
+    }
 }
