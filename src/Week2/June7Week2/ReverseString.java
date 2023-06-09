@@ -6,8 +6,8 @@ public class ReverseString {
     public static String reverse(String s){
         String[] w = s.split(" ");
         String rStr = "";
-        for(int i = 0; i < w.length; i++)
-        {
+        int i = 0;
+        while (i < w.length) {
             String word = w[i];
             String rWord = "";
             for (int j = word.length()-1; j >= 0; j--)
@@ -15,6 +15,7 @@ public class ReverseString {
                 rWord += word.charAt(j);
             }
             rStr = rStr + rWord + " ";
+            i++;
         }
         return rStr;
 
