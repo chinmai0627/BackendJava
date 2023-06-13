@@ -37,7 +37,6 @@ public class studentscsv{
 
     public static void main(String[] args) {
 
-
         List<Student> students = new ArrayList<>();;
         try (BufferedReader br = new BufferedReader(new FileReader("/Users/chinmaibhavya/Desktop/students.csv"))) {
             String line;
