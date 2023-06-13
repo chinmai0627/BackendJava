@@ -1,0 +1,7 @@
+I am Chinmai currently working with Deloitte as a Full-stack developer. I have 8 years of professional experience in Enterprise software application development, testing, maintenance, and production support.
+
+Being a full-stack developer, I used Java for backend functionalities along with various frameworks, React JS, and various visualization libraries for developing dashboards and frontend. Throughout my career, I have used various technologies like JEE, Spring, HTML, CSS, JSP, Angular, Spring, Hibernate, GIT, and the latest CI/CD tools for deployment purposes.
+
+I have experience with all major AWS services for infrastructure setup and deployment operations. I have also set up infrastructure for hosting applications in various lower and higher environments. Additionally, I have actively participated in troubleshooting production defects.
+
+Please let me know if you need any further information.
