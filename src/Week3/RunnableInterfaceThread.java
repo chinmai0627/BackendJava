@@ -2,7 +2,7 @@
 Thread should print numbers from 1 to 10.*/
 package Week3;
 public class RunnableInterfaceThread {
-        public static class NumberRunnable implements Runnable {
+        public static class numberR implements Runnable {
             public void run() {
                 for (int i = 1; i <= 10; i++) {
                     System.out.println(i);
@@ -10,9 +10,9 @@ public class RunnableInterfaceThread {
             }
         }
         public static void main(String[] args) {
-            NumberRunnable r = new NumberRunnable();
-            Thread thread = new Thread(r);
-            thread.start();
+            numberR r = new numberR();
+            Thread t = new Thread(r);
+            t.start();
         }
     }
 
