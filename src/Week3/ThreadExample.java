@@ -2,8 +2,10 @@ package Week3;
 public class ThreadExample {
     public static class numbert extends Thread {
         public void run() {
-            for (int i = 1; i <= 10; i++) {
+            int i = 1;
+            while (i <= 10) {
                 System.out.println(i);
+                i++;
             }
         }
     }
